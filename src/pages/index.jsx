@@ -217,7 +217,7 @@ export default function Index() {
 
   return (
     <Box minH="100dvh" isolation="isolate">
-      <Seo title="Portfolio" description={plainBio} />
+      <Seo description={plainBio} />
       <BackgroundDecorations />
       <Navbar />
       <main>
